@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="0 0 120 120">
+  <defs>
+    <!-- Brand Teal (#0F7A60) base radial gradient -->
+    <radialGradient id="starGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#0F7A60" stop-opacity="0.5" />
+      <stop offset="60%" stop-color="#0b5e4a" stop-opacity="0.25" />
+      <stop offset="100%" stop-color="#063227" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+
+  <!-- Brand Deep Teal Base Tone matching #0F7A60 -->
+  <rect width="120" height="120" fill="#073229" />
+
+  <!-- Center & Corner Soft Glows -->
+  <circle cx="60" cy="60" r="32" fill="url(#starGlow)" />
+  <circle cx="0" cy="0" r="32" fill="url(#starGlow)" />
+  <circle cx="120" cy="0" r="32" fill="url(#starGlow)" />
+  <circle cx="0" cy="120" r="32" fill="url(#starGlow)" />
+  <circle cx="120" cy="120" r="32" fill="url(#starGlow)" />
+
+  <!-- Subtle Concentric Circular Grid Lines -->
+  <g fill="none" stroke="#0F7A60" stroke-width="1" stroke-opacity="0.6">
+    <circle cx="60" cy="60" r="28" />
+    <circle cx="60" cy="60" r="18" />
+    <circle cx="0" cy="0" r="28" />
+    <circle cx="120" cy="0" r="28" />
+    <circle cx="0" cy="120" r="28" />
+    <circle cx="120" cy="120" r="28" />
+  </g>
+
+  <!-- Interlacing 4-Pointed Star Rosette Petals in Center -->
+  <g fill="none" stroke="#137A63" stroke-width="1.3" stroke-opacity="0.85">
+    <!-- 4 overlapping curved petals forming center star -->
+    <path d="M60,32 C60,48 48,60 32,60 C48,60 60,72 60,88 C60,72 72,60 88,60 C72,60 60,48 60,32 Z" />
+    <!-- Diagonal 4-point star -->
+    <path d="M40,40 C52,50 50,52 60,60 C50,52 52,70 40,80 C50,68 68,70 80,80 C70,68 68,50 80,40 C68,52 50,50 40,40 Z" stroke-opacity="0.4" />
+
+    <!-- Corner Star Petals -->
+    <path d="M0,-28 C0,-12 -12,0 -28,0 C-12,0 0,12 0,28 C0,12 12,0 28,0 C12,0 0,-12 0,-28 Z" />
+    <path d="M120,-28 C120,-12 108,0 92,0 C108,0 120,12 120,28 C120,12 132,0 148,0 C132,0 120,-12 120,-28 Z" />
+    <path d="M0,92 C0,108 -12,120 -28,120 C-12,120 0,132 0,148 C0,132 12,120 28,120 C12,120 0,108 0,92 Z" />
+    <path d="M120,92 C120,108 108,120 92,120 C108,120 120,132 120,148 C120,132 132,120 148,120 C132,120 120,108 120,92 Z" />
+  </g>
+
+  <!-- Fine Inner 8-pointed star & diamond accents -->
+  <g fill="none" stroke="#1da181" stroke-width="0.9" stroke-opacity="0.75">
+    <rect x="52" y="52" width="16" height="16" transform="rotate(45 60 60)" />
+    <rect x="-8" y="-8" width="16" height="16" transform="rotate(45 0 0)" />
+    <rect x="112" y="-8" width="16" height="16" transform="rotate(45 120 0)" />
+    <rect x="-8" y="112" width="16" height="16" transform="rotate(45 0 120)" />
+    <rect x="112" y="112" width="16" height="16" transform="rotate(45 120 120)" />
+
+    <!-- Outer Frame lines connecting intersections -->
+    <line x1="60" y1="0" x2="60" y2="120" stroke-opacity="0.3" />
+    <line x1="0" y1="60" x2="120" y2="60" stroke-opacity="0.3" />
+    <line x1="0" y1="0" x2="120" y2="120" stroke-opacity="0.25" />
+    <line x1="120" y1="0" x2="0" y2="120" stroke-opacity="0.25" />
+  </g>
+
+  <!-- Brand Orange center star accent -->
+  <g fill="#ff7a32" opacity="0.45">
+    <circle cx="60" cy="60" r="1.8" />
+    <circle cx="0" cy="0" r="1.8" />
+    <circle cx="120" cy="0" r="1.8" />
+    <circle cx="0" cy="120" r="1.8" />
+    <circle cx="120" cy="120" r="1.8" />
+  </g>
+</svg>

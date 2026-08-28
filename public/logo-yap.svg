@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 580 160" width="580" height="160" fill="none">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@800;900&amp;display=swap');
+      .yap-title {
+        font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+        font-weight: 900;
+      }
+    </style>
+  </defs>
+
+  <!-- 1. GRAPHIC EMBLEM (BOY, GIRL, OPEN BOOK) -->
+  <g fill="#0F7A60">
+    <!-- BOY (Right side of emblem) -->
+    <!-- Peci / Songkok -->
+    <path d="M144 2 C144 0.9 144.9 0 146 0 H204 C205.1 0 206 0.9 206 2 V28 C206 29.1 205.1 30 204 30 H146 C144.9 30 144 29.1 144 28 Z" />
+    
+    <!-- Boy Head -->
+    <path d="M144 34 H206 V54 C206 71.1 192.1 85 175 85 C157.9 85 144 71.1 144 54 Z" />
+    
+    <!-- Boy Body / Shoulders -->
+    <path d="M140 82 C148 90 160 95 175 95 C190 95 202 90 210 82 C218 86 226 95 226 108 L226 146 H158 L140 82 Z" />
+
+    <!-- GIRL (Left side of emblem) -->
+    <!-- Hijab Head & Outer Contour -->
+    <path d="M64 22 C92 22 124 38 126 84 C126 94 135 110 148 146 H108 C100 120 90 98 84 86 C82 88 78 90 64 90 C50 90 46 88 44 86 C38 98 28 120 20 146 H0 C10 110 19 94 20 84 C22 38 44 22 64 22 Z" />
+    
+    <!-- Hijab Face Opening (White Cutout) -->
+    <path d="M38 52 C38 49 41 47 45 47 H83 C87 47 90 49 90 52 V64 C90 78 78 88 64 88 C50 88 38 78 38 64 Z" fill="#ffffff" />
+
+    <!-- OPEN BOOK (Bottom Left) -->
+    <!-- Main Left Spread Wing with 3 Scalloped Base Arcs -->
+    <path d="M0 102 C14 102 46 102 78 114 C96 122 104 136 108 152 H0 C0 152 4 156 4 158 C4 160 2 160 0 160 Z" />
+    <!-- Outer Curved Book Cover Page -->
+    <path d="M0 102 C30 102 65 106 88 124 C100 134 106 146 108 158 H104 C100 142 92 130 82 120 C60 106 28 104 0 104 Z" />
+    
+    <!-- Inner Fanning Pages (Lines of Open Pages) -->
+    <path d="M0 108 C28 108 60 112 80 128 C90 136 96 146 100 158 H96 C92 144 86 134 76 126 C56 112 28 110 0 110 Z" />
+    <path d="M0 114 C26 114 54 118 72 132 C82 140 88 148 92 158 H88 C84 146 78 138 68 130 C50 118 26 116 0 116 Z" />
+    <path d="M0 120 C24 120 48 124 64 136 C72 142 78 150 82 158 H78 C74 148 68 142 60 134 C44 124 24 122 0 122 Z" />
+
+    <!-- Scalloped Bottom Left Base of the Book -->
+    <path d="M0 102 H4 C26 102 62 108 84 124 C98 136 104 148 108 160 H0 C4 156 8 150 16 150 C24 150 28 156 36 156 C44 156 48 150 56 150 C64 150 68 156 76 156 C84 156 88 150 96 150 C102 150 106 156 108 160 H0 V102 Z" />
+
+    <!-- Bottom Horizontal Spine Base Lines -->
+    <rect x="112" y="146" width="114" height="3" rx="1.5" />
+    <rect x="112" y="152" width="114" height="3" rx="1.5" />
+    <rect x="112" y="157" width="114" height="3" rx="1.5" />
+  </g>
+
+  <!-- 2. CENTER VERTICAL DIVIDER -->
+  <rect x="265" y="0" width="4" height="160" fill="#0F7A60" rx="2" />
+
+  <!-- 3. TYPOGRAPHY: YAYASAN ASIH PUTERA -->
+  <g fill="#0F7A60">
+    <!-- YAYASAN -->
+    <text x="307" y="21" class="yap-title" font-size="24" letter-spacing="0.38em">YAYASAN</text>
+
+    <!-- ASIH -->
+    <text x="307" y="87" class="yap-title" font-size="70" letter-spacing="0.01em">ASIH</text>
+
+    <!-- PUTERA -->
+    <text x="307" y="156" class="yap-title" font-size="70" letter-spacing="0.01em">PUTERA</text>
+  </g>
+</svg>
