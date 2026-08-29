@@ -1,6 +1,7 @@
 import React from 'react';
 import { ArrowRight, Home, School, Users, ChevronDown, Star } from 'lucide-react';
 import heroAsihPuteraImg from '../assets/images/hero-asih-putera.jpg';
+import heroBgImg from '../assets/images/hero-bg.jpg';
 
 interface HeroProps {
   onOpenPPDB: () => void;
@@ -18,15 +19,13 @@ export const Hero: React.FC<HeroProps> = ({ onOpenPPDB, onExplorePrograms }) => 
   return (
     <section 
       id="hero-section" 
-      className="relative pt-10 sm:pt-16 pb-20 sm:pb-24 px-4 sm:px-6 lg:px-8 overflow-hidden bg-gradient-to-b from-[#F0FDF4]/80 via-[#FFFBEB]/40 to-white"
+      className="relative pt-10 sm:pt-16 pb-20 sm:pb-24 px-4 sm:px-6 lg:px-8 overflow-hidden bg-[length:100%_100%] bg-center bg-no-repeat bg-emerald-50/30"
+      style={{
+        backgroundImage: `url(${heroBgImg})`,
+      }}
     >
-      {/* Subtle Islamic Geometric Pattern Overlay */}
-      <div 
-        className="absolute inset-0 opacity-[0.035] pointer-events-none -z-10 bg-repeat"
-        style={{ backgroundImage: `url('/islamic-pattern.svg')` }}
-      />
-      {/* Soft translucent luminous wash to enhance text contrast and pastel tones */}
-      <div className="absolute inset-0 bg-white/40 pointer-events-none -z-10" />
+      {/* Soft luminous wash to ensure optimal text readability while showcasing the entire background illustration without cropping */}
+      <div className="absolute inset-0 bg-white/65 backdrop-blur-[0.5px] pointer-events-none -z-10" />
 
       {/* Decorative Subtle Floating Sparkles */}
       <div className="absolute top-8 left-[28%] text-[#F2BA13] text-xl sm:text-2xl pointer-events-none select-none animate-float drop-shadow-xs">
